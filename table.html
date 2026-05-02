@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .header-text {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- Header Rows -->
+        <tr>
+            <th rowspan="2">Days</th>
+            <th colspan="6">Time</th>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <th>9:00</th>
+            <th>10:00</th>
+            <th>11:00</th>
+            <th>11:30</th>
+            <th>12:30</th>
+        </tr>
+
+        <!-- Monday Row -->
+        <tr>
+            <td>Mon</td>
+            <td>Course 1</td>
+            <td>Course 2</td>
+            <td>Course 3</td>
+            <td rowspan="5">B<br>R<br>E<br>A<br>K</td>
+            <td>Course 5</td>
+            <td></td>
+        </tr>
+
+        <!-- Tuesday Row -->
+        <tr>
+            <td>Tue</td>
+            <td colspan="2"></td>
+            <td>Course 2</td>
+            <td>Course 4</td>
+            <td>Course 1</td>
+        </tr>
+
+        <!-- Wednesday Row -->
+        <tr>
+            <td>Wed</td>
+            <td>Course 3</td>
+            <td colspan="2"></td>
+            <td>Course 2</td>
+            <td></td>
+        </tr>
+
+        <!-- Thursday Row -->
+        <tr>
+            <td>Thr</td>
+            <td rowspan="2">Course 4</td>
+            <td>Course 2</td>
+            <td>Course 3</td>
+            <td colspan="2" rowspan="2">Thesis</td>
+        </tr>
+
+        <!-- Friday Row -->
+        <tr>
+            <td>Fri</td>
+            <td></td>
+            <td>Course 1</td>
+        </tr>
+    </table>
+
+</body>
+</html>
